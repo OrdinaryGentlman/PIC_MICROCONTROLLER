@@ -1,0 +1,262 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F458 ]
+[d frameptr 4065 ]
+"17 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX/lcd.h
+[v _lcd_set_bit lcd_set_bit `(v  1 e 1 0 ]
+"40
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"49
+[v _lcd_clear lcd_clear `(i  1 e 2 0 ]
+"55
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+"76
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"94
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+"110
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"18 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX/soft_i2c_slave.h
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+"23
+[v _dly dly `(v  1 e 1 0 ]
+"27
+[v _i2c_wait_for_start i2c_wait_for_start `(v  1 e 1 0 ]
+"31
+[v _i2c_wait_for_restart i2c_wait_for_restart `(v  1 e 1 0 ]
+"39
+[v _i2c_wait_for_stop i2c_wait_for_stop `(v  1 e 1 0 ]
+"44
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+"78
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"13 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX\rx_main.c
+[v _main main `(v  1 e 1 0 ]
+[s S116 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"10441 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f458.h
+[s S125 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S134 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S137 . 1 `S116 1 . 1 0 `S125 1 . 1 0 `S134 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES137  1 e 1 @3969 ]
+[s S76 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"11162
+[s S85 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S94 . 1 `S76 1 . 1 0 `S85 1 . 1 0 ]
+[v _LATBbits LATBbits `VES94  1 e 1 @3978 ]
+"11359
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S24 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"11386
+[s S33 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _LATDbits LATDbits `VES42  1 e 1 @3980 ]
+"12165
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"20032
+[v _TRISB1 TRISB1 `VEb  1 e 0 @31897 ]
+"20041
+[v _TRISB4 TRISB4 `VEb  1 e 0 @31900 ]
+"13 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX\rx_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"33
+[v main@nack nack `uc  1 a 1 12 ]
+"26
+[v main@payload payload `uc  1 a 1 13 ]
+"45
+} 0
+"110 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX/lcd.h
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+"112
+[v lcd_string@i i `i  1 a 2 10 ]
+"110
+[v lcd_string@a a `*.31uc  1 p 1 8 ]
+"115
+} 0
+"94
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+{
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"106
+[v lcd_char@i_193 i `i  1 a 2 5 ]
+"102
+[v lcd_char@i i `i  1 a 2 3 ]
+"96
+[v lcd_char@Upper_Nibble Upper_Nibble `uc  1 a 1 2 ]
+[v lcd_char@Lower_Nibble Lower_Nibble `uc  1 a 1 1 ]
+"94
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"97
+[v lcd_char@data data `uc  1 a 1 7 ]
+"108
+} 0
+"55
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+{
+[v lcd_set_cursor@a a `uc  1 a 1 wreg ]
+"57
+[v lcd_set_cursor@temp temp `uc  1 a 1 7 ]
+[v lcd_set_cursor@y y `uc  1 a 1 6 ]
+[v lcd_set_cursor@z z `uc  1 a 1 5 ]
+"55
+[v lcd_set_cursor@a a `uc  1 a 1 wreg ]
+[v lcd_set_cursor@b b `uc  1 p 1 3 ]
+"58
+[v lcd_set_cursor@a a `uc  1 a 1 4 ]
+"74
+} 0
+"76
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"92
+} 0
+"49
+[v _lcd_clear lcd_clear `(i  1 e 2 0 ]
+{
+"53
+} 0
+"40
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@a a `uc  1 a 1 wreg ]
+[v lcd_cmd@a a `uc  1 a 1 wreg ]
+"42
+[v lcd_cmd@a a `uc  1 a 1 2 ]
+"47
+} 0
+"17
+[v _lcd_set_bit lcd_set_bit `(v  1 e 1 0 ]
+{
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 wreg ]
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 wreg ]
+"19
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 0 ]
+"38
+} 0
+"44 C:\Users\josep\Documents\GitHub\SOFT_I2C\I2C_RX/soft_i2c_slave.h
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+{
+[v i2c_write@d d `uc  1 a 1 wreg ]
+"53
+[v i2c_write@i i `uc  1 a 1 2 ]
+"67
+[v i2c_write@b b `uc  1 a 1 0 ]
+"44
+[v i2c_write@d d `uc  1 a 1 wreg ]
+[v i2c_write@d d `uc  1 a 1 1 ]
+"76
+} 0
+"39
+[v _i2c_wait_for_stop i2c_wait_for_stop `(v  1 e 1 0 ]
+{
+"42
+} 0
+"27
+[v _i2c_wait_for_start i2c_wait_for_start `(v  1 e 1 0 ]
+{
+"29
+} 0
+"31
+[v _i2c_wait_for_restart i2c_wait_for_restart `(v  1 e 1 0 ]
+{
+"37
+} 0
+"78
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+[v i2c_read@nack nack `uc  1 a 1 wreg ]
+"80
+[v i2c_read@x x `uc  1 a 1 2 ]
+"79
+[v i2c_read@data data `uc  1 a 1 1 ]
+"78
+[v i2c_read@nack nack `uc  1 a 1 wreg ]
+[v i2c_read@nack nack `uc  1 a 1 0 ]
+"102
+} 0
+"23
+[v _dly dly `(v  1 e 1 0 ]
+{
+"25
+} 0
+"18
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+{
+"21
+} 0

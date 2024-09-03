@@ -43,7 +43,7 @@ void i2c_wait_for_stop(void) {
 
 unsigned char i2c_write(unsigned char d) {   
     SCL = 0;
-    __delay_us(10);
+    __delay_us(10); // The slave stretch the clock to prepare the data for the slave. As an example here a delay of 10 us is written. 
     if(d&0x80) SDA = 1;
     else SDA = 0;
     d <<= 1;

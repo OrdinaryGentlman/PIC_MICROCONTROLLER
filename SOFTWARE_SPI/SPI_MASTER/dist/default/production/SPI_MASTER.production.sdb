@@ -1,0 +1,238 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F458 ]
+[d frameptr 4065 ]
+"16 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER/lcd.h
+[v _lcd_set_bit lcd_set_bit `(v  1 e 1 0 ]
+"39
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"48
+[v _lcd_clear lcd_clear `(i  1 e 2 0 ]
+"54
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+"75
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"93
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+"109
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"18 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER/soft_spi_master.h
+[v _spi_init spi_init `(v  1 e 1 0 ]
+"28
+[v _spi_transfer spi_transfer `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"15 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER\tx_main.c
+[v _main main `(v  1 e 1 0 ]
+[s S83 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"10572 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f458.h
+[s S163 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S172 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S181 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S185 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S188 . 1 `S83 1 . 1 0 `S163 1 . 1 0 `S172 1 . 1 0 `S181 1 . 1 0 `S185 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES188  1 e 1 @3970 ]
+[s S114 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"11274
+[s S123 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S132 . 1 `S114 1 . 1 0 `S123 1 . 1 0 ]
+[v _LATCbits LATCbits `VES132  1 e 1 @3979 ]
+"11359
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S24 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"11386
+[s S33 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _LATDbits LATDbits `VES42  1 e 1 @3980 ]
+[s S74 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"11975
+[u S92 . 1 `S74 1 . 1 0 `S83 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES92  1 e 1 @3988 ]
+"12165
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"15 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER\tx_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"26
+[v main@receivedData receivedData `uc  1 a 1 13 ]
+"36
+} 0
+"28 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER/soft_spi_master.h
+[v _spi_transfer spi_transfer `(uc  1 e 1 0 ]
+{
+[v spi_transfer@data data `uc  1 a 1 wreg ]
+"31
+[v spi_transfer@i i `uc  1 a 1 3 ]
+"29
+[v spi_transfer@receivedData receivedData `uc  1 a 1 2 ]
+"28
+[v spi_transfer@data data `uc  1 a 1 wreg ]
+[v spi_transfer@data data `uc  1 a 1 1 ]
+"45
+} 0
+"18
+[v _spi_init spi_init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"109 C:\Users\josep\Documents\GitHub\PIC_MICROCONTROLLER\SOFTWARE_SPI\SPI_MASTER/lcd.h
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+"111
+[v lcd_string@i i `i  1 a 2 10 ]
+"109
+[v lcd_string@a a `*.31uc  1 p 1 8 ]
+"114
+} 0
+"93
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+{
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"105
+[v lcd_char@i_259 i `i  1 a 2 5 ]
+"101
+[v lcd_char@i i `i  1 a 2 3 ]
+"95
+[v lcd_char@Upper_Nibble Upper_Nibble `uc  1 a 1 2 ]
+[v lcd_char@Lower_Nibble Lower_Nibble `uc  1 a 1 1 ]
+"93
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"96
+[v lcd_char@data data `uc  1 a 1 7 ]
+"107
+} 0
+"54
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+{
+[v lcd_set_cursor@a a `uc  1 a 1 wreg ]
+"56
+[v lcd_set_cursor@temp temp `uc  1 a 1 7 ]
+[v lcd_set_cursor@y y `uc  1 a 1 6 ]
+[v lcd_set_cursor@z z `uc  1 a 1 5 ]
+"54
+[v lcd_set_cursor@a a `uc  1 a 1 wreg ]
+[v lcd_set_cursor@b b `uc  1 p 1 3 ]
+"57
+[v lcd_set_cursor@a a `uc  1 a 1 4 ]
+"73
+} 0
+"75
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"91
+} 0
+"48
+[v _lcd_clear lcd_clear `(i  1 e 2 0 ]
+{
+"52
+} 0
+"39
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@a a `uc  1 a 1 wreg ]
+[v lcd_cmd@a a `uc  1 a 1 wreg ]
+"41
+[v lcd_cmd@a a `uc  1 a 1 2 ]
+"46
+} 0
+"16
+[v _lcd_set_bit lcd_set_bit `(v  1 e 1 0 ]
+{
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 wreg ]
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 wreg ]
+"18
+[v lcd_set_bit@data_bit data_bit `uc  1 a 1 0 ]
+"37
+} 0
